@@ -5,7 +5,7 @@ const mongoose = require('mongoose');
 const app = express();
 mongoose.Promise = global.Promise;
 
-mongoose.connect('myTester:xyz123@localhost:27017/test').then(()=> {
+mongoose.connect('myTester:xyz123@mongodb11302-eemelih.jelastic.metropolia.fi:27017/test').then(()=> {
     console.log("Connection successful");
     app.listen(3000);
     //app.use(express.static('public'));
