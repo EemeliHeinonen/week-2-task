@@ -36,7 +36,8 @@ jspm_packages
 # Optional REPL history
 .node_repl_history
 
-.gitignore
+.env
 asd
 asd.pub
+.asd.pub.swp
 
